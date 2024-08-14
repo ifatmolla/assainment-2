@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Life+Savers:wght@400;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,30 +6,33 @@
 }
 
 .fokira-container{
-background-color: black;
+background-color:black ;
 }
 .play-contant{
-    
+    width: 100%;
+    height: 100%;
      display: flex;
-    margin: 0 auto;
-    max-width: 1200px;
-    gap: 40%;
+    justify-content: center;
+    gap: 46%;
+      
+         
     
-    
-    
-     border: 2px solid red;
-     
-     padding: 8px;    
-}
+    }
 .first-elament-content{
-    height: 60px;
-    width: 440px;
+    
+   padding: 10px;
     color: red;
     font-size: 34;
 }
+.font-link{
+    color: wheat;
+    display: flex;
+    align-items: center;
+}
 .second-elament-content{
 padding: 10px;
-gap: 30px;
+gap:40px;
+
 
 background-color: black;
 color: white;
@@ -40,28 +44,39 @@ border-radius: 16px;
 padding: 6px 15px;
 
 }
+.banner-shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;
+    Line-height:93.6px;
+    font-weight: 400;
+    font-style: italic;
+
+
+ 
+}
 .main-section-container{
     max-width: 100%;
     min-height: 100%;
     display: flex;
-    border: 2px solid red;
    align-items: center;
   justify-content: center;
    gap: 100px; 
+ top: 60px;
   background-color: black;
   color: white;
 }
 .banner-section-container{
     width: 520px;
-    border: 2px solid red;
+    
     height: 400px;
     
 }
+
 .banner-section-container h1{
 font-size: 60px;
 }
-.btn-section-container{
-   
+.font-link{
+    display: none;
 }
 
 
@@ -70,7 +85,7 @@ font-size: 60px;
  border-radius: 30px;
  background-color: #E6533C;
  color: white; 
- font-size: ;  
+  
  border: none; 
  margin-top: 20px;
 }
@@ -79,14 +94,13 @@ font-size: 60px;
     border-radius: 30px;
     background-color:  black;
     color: #FFFFFF;
-    font-size: ;
+    
     border: 1px solid white;
 }
 
 .image-section-container{
-width: 350p;
+width: 350px;
 height: 580px;
-border: 2px solid red;
 position: relative;
 
 }
@@ -125,56 +139,378 @@ position: relative;
 .forth-text-section-contaner{
     width: 100%;
     height: 100%;
-    border: 2px solid red;
-    
     background-color: black;
 }
 .forth-text-contant{
     text-align: center;
     color:white;
     padding: 40px;
-    border: 2px solid red;
     margin-bottom: 40px;
 
 }
 .forth-image-section{
-    display: flex;
-    margin-top: 20px; 
-    border-radius: 70px;
+   display: flex;
+   padding-bottom:  70px;
+   border-radius: 90px;
     justify-content: center;
     gap: 60px;
     color: rgba(255, 255, 255, 0.452);
 }
 .forth-image-section img{
-    border-radius: 100px;
+ border-radius: 70px;
+ 
+
+}
+.speceal-image{
+    width: 100%;
+    border-radius: 55%;
+    overflow: hidden;
+}
+.forth-image-first{
+    border-radius: 50px;
 }
 .image-title{
     margin-left: 54px;
     color: white;
-    margin-top: 20px;
+    
 }
 /* last header option one text one image */
 .last-banner-header{
-    background-color: black;
+ background-color: black;  
+ 
 }
 .last-header-option-container{
     height: 271px;
+    width: 70%;
+    height: 10%;
     display: flex;
     justify-content: center;
    padding: 50px;
-   border: 2px solid blue;
+  
    gap: 120px;
-   background-color: ;
+ background-color: grey;
    color: white;
+   margin: 0 auto;
+ border-radius: 10px;
+   
    
 }
+
 .last-header-text-contant{
-  
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  gap: 30px;
+
 }
-.last-btn-banner{
+
+
+.text-image-btn{
+    padding: 11px 50px;
+    border-radius: 30px;
+    background-color: #E6533C;
+    color: white; 
+    border: none; 
+    margin-top: 35px;  
+}
+.last-header-image-contant img{
+  height: 230px;
+  width: 330px;
+  border-radius: 20px;
+
+}
+table{
+   border-collapse: collapse;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.134);
+    padding: 7px;
+}
+.banner-developer{
+    background-color: black;
+    color: white;
+    height: 200px;
+   padding: 30px;
+    text-align: center;
    
-    background-color: red;
 }
-.last-header-image-contant{
+.main-developer{
+
+}
+.main-developer-section{
+    background-color: #222222f7;
+    
+}
+.web-developer-mition{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    /* width: 1070px;
+    height: 380px; */
+    margin: 0 auto;
+   
+    gap: 150px;
+    
+    padding: 20px;
+   
+   
+}
+.web-part-1{
+margin-left: 300px;
+margin-top: 50px;
+color: rgba(255, 255, 255, 0.578);
+
+
+}
+.developer-h2{
+    margin-bottom: 30px;
+    color: white;
+}
+.web-part-2{
+ margin-top: 30px;
+}
+.area-form-part{
+    display: flex;
+   
+}
+.first-form-part{
+font-size: 20px;
+}
+.second-form-part{
+    
+}
+.first-text-part{
+    gap: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.third-form-part{
+
+}
+.form-puron{
+   
+    
+   padding: 5px 5px;
+}
+
+.tr-trfyu{
+ width: 260px;
+ height: 50px;
+ border-radius: 8px;
+ background-color:  rgba(240, 231, 231, 0.699);
+ color: white;
+ font-size: 15px;
+ 
+}
+.last-option{
+    width: 98%;
+    height: 50px;
+    border-radius: 8px;
+    background-color:  rgba(240, 231, 231, 0.699);
+    margin-left: 5px;
+    color: white;
+    font-size: 15px;
+   
+   
+}
+.btn-form{
+    padding: 13px 60px;
+    background-color:  #E6533C;
+    color: white;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+   
+}
+.grand-father{
+    background-color: black;
+}
+.main-image-section-container{
+  display: flex;
+   gap: 20px 20px;
+   width: 100%;
+   height: 420px;
+   background-color: rgba(0, 0, 0, 0.479);
+  box-shadow: 10px;
+  margin: 0 auto;
+  filter: (100%);
+}
+.main-text-container{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.532);
+    height: 170px;
+    padding: 40px;
+}
+.main-text-container h1{
+font-size: 40px;
+color: white;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+.first-image-contant{
+   position: relative;
+    height: 400px;
+    width: 33%;
+    filter:  black (40%);
+    
+}
+.position{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: gray;
+}
+.position h3{
+ color: white;
+}
+
+
+
+.last-footer-container{
+   padding: 1%;
+    display: flex;
+    gap: 12%;
+    width: 100%;
+    height: 205px;
+   justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.63);
+   
+}
+.first-div{
+   color: rgba(240, 248, 255, 0.511);
+}
+.first-div h1{
+    color: #E6533C;
+    font-size: 40px;
+    margin-top: 30px;
+    font-style: italic;
+    
+}
+.second-div{
+    margin-top: 30px;
+    color: rgba(250, 235, 215, 0.384);
+}
+.second-div h1{
+    color: white;
+}
+.third-div{
+   margin-top: 30px;
+  color: rgba(240, 248, 255, 0.522);
+ 
+}
+.third-div h1{
+    color: white;
+}
+.main-hr{
+    background-color: rgba(0, 0, 0, 0.63);
+    
+}
+.hr-tag{
+    width: 75%;
+    height: 100%;
+  padding: 20px;
+  margin: 0 auto;
+ 
   
+  
+
+}
+
+
+@media screen and (max-width:576px) {
+  .play-contant{
+    /* flex-direction: column; */
+    gap: 0px;
+    justify-content:space-between;
+  } 
+  .font-link{
+    margin-top: 10px;
+  }
+  .main-section-container{
+   flex-direction: column;
+}
+.banner-section-container{
+    width: 100%;
+    height: 100%;
+}
+.btn-section-container{
+   
+}
+.btn-part-2{
+   width: 40%;
+   padding: 15px 27px;
+  
+  
+}
+.last-header-option-container{
+    flex-direction: column;
+    width: 100%;
+   
+}
+.forth-text-section-contaner{
+    
+}
+.forth-text-contant{
+  width: 90%;
+}
+.forth-image-section{
+    flex-direction: column;
+    width: 90%;
+   align-items: center;
+   
+    
+}
+.font-link{
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.second-elament-content{
+    display: none;
+}
+.web-developer-mition{
+    flex-direction: column;
+}
+.web-part-1{
+    margin-left: 0px;
+    height: 20%;
+}
+.tr-trfyu{
+    width: 100%;
+}
+.main-image-section-container{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+.last-footer-container{
+    flex-direction: column;
+}
+.last-footer-container{
+    flex-direction: column;
+    width: 100%;
+    height: 0%;
+}   
+.first-image-contant{
+   width: 100%;
+  height: 100%;
+     
+ }
+.third-div{
+margin: 0;
+margin-bottom: 30px;
+border: none;
+}
+.hr-tag{
+    flex-direction: column;
+   
+}
 }
